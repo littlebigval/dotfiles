@@ -1,10 +1,16 @@
-syntax on         " syntax highlighting
-set tabstop=2     " tab width
-set shiftwidth=4  " number of spaces for ai
-set expandtab	  " use space chars instead of tabs
-set ai			  " auto indenting
-set number		  " shows line number on the left-and side
-
-set history=1000  " commands history; defaults to 20
+" syntax highlighting
+syntax on
+" tab width
+set tabstop=2
+" number of spaces for ai
+set shiftwidth=4
+" use space chars instead of tabs
+set expandtab
+" auto indenting
+set ai
+" shows line number on the left-and side
+set number
+" commands history; defaults to 20
+set history=1000
 
 highlight Comment ctermfg=green
